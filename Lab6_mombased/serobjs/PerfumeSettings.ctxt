@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=PerfumeSettings
+comment0.text=\r\n\ Data-transfer\ object\ carrying\ ALL\ runtime\ settings\r\n\ that\ the\ robot\ needs\ to\ start\ a\ cleaning-and-perfume\ cycle.\r\n\r\n\ The\ constructor\ now\ validates\ the\ arguments\ and\ throws\r\n\ IllegalArgumentException\ if\ something\ is\ off.\r\n
+comment1.params=perfumeIntensity\ perfumeEnabled\ perfumeType\ cleaningIntensity
+comment1.target=PerfumeSettings(int,\ boolean,\ java.lang.String,\ int)
+comment1.text=\r\n\ @param\ perfumeIntensity\ 1\u20133\ (ignored\ /\ must\ be\ 0\ when\ perfume\ disabled)\r\n\ @param\ perfumeEnabled\ \ \ true\ to\ dispense\ perfume\r\n\ @param\ perfumeType\ \ \ \ \ \ "standard",\ "special"\ or\ null\r\n\ @param\ cleaningIntensity\ 1\u201310\r\n\r\n\ @throws\ IllegalArgumentException\ if\ the\ combination\ is\ invalid\r\n
+comment2.params=
+comment2.target=int\ getPerfumeIntensity()
+comment3.params=
+comment3.target=boolean\ isPerfumeEnabled()
+comment4.params=
+comment4.target=java.lang.String\ getPerfumeType()
+comment5.params=
+comment5.target=int\ getCleaningIntensity()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
